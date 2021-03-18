@@ -1,0 +1,18 @@
+@import url("/avatar/avatar.css");
+
+.card-container{
+    display: flex;
+    margin: 0 auto;
+    background-color: red;
+    padding: 10px;
+}
+.product-card{
+    margin:  0 auto;
+    width: 300px;
+    height: 400px;
+}
+.img-div img{
+    margin: 0 auto;
+    width: 200px;
+    height: 300px;
+}
