@@ -10,7 +10,6 @@
     margin: 1em;
     display: flex;
     position: relative;
-    /* height: 1vh; */
     width: 100px;
     flex-direction: row;
     cursor: pointer;
@@ -20,7 +19,7 @@
     position: absolute;
     top: -10px;
     left: 10px;
-    background-color: black;
+    background-color: deepskyblue;
     width: 15px;
     height: 15px;
     display: flex;
@@ -38,12 +37,14 @@
 .badge.secondary{
     background-color: rgb(250, 121, 121);
 }
-
-.badge.error{
+.fa-whatsapp{
+    font-size: 22px;
+}
+.badge.whatsapp{
     background-color: red;
 }
 
 .avatar-badge{
-    top: 15px;
-    left: 50px
+    top: 0px;
+    left: 40px
 }
