@@ -1,16 +1,24 @@
 @import url("/avatar/avatar.css");
 
-.card-container{
+.card1-container{
+    display: flex;
+    justify-content: space-between;
+}
+.carbon-container{
+    margin-top: 5px;
+    width: 60%; 
+}
+.phone-card-container{
     display: flex;
     margin: 0 auto;
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
     padding: 10px;
 }
 .product-card{
     margin:  0 auto;
     width: 300px;
     height: 400px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
 }
 .btn-sale{
     float: left;
@@ -18,7 +26,6 @@
     border: none;
     color: white;
     padding: 3px;
-    margin-left: -10px;
     margin-top: 10%;
 }
 .img-div img{
@@ -54,4 +61,62 @@
     font-size: 16px;
     background-color: deepskyblue;
     color: white;
+}
+
+/* Horizontal Card */
+.horizontal-cart-container{
+    width: 100%;
+    border-top: 2px solid black;
+    margin-top: 20px;
+}
+.inner-topdiv{
+    height: 80%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+}
+.horizontal-card-div{
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: red;
+    padding: 10px;
+}
+.img-div-hor{
+    height: 100%;
+    width: 200px;
+}
+.img-div-hor img{
+    height: 100%;
+    float: left;
+}
+.hori-card-info{
+    float: left;
+    text-align: left;
+}
+.hori-card-infoo h2{
+    opacity: 0.8;
+    
+}
+.hori-card-info span{
+    color: blue;
+
+}
+.hori-card-info p{
+   color: gray;
+   
+}
+.hori-card-info h3{
+    
+    color: orangered;
+}
+.hori-card-info h3 span{
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 16px;
+    background-color: deepskyblue;
+    color: white;
+}
+.hori-btn-remove{
+    
 }
