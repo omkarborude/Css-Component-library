@@ -1,0 +1,49 @@
+@import url("/avatar/avatar.css");
+
+.badge-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-container{
+    margin: 1em;
+    display: flex;
+    position: relative;
+    /* height: 1vh; */
+    width: 100px;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.badge{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    align-items: center;
+    font-size: x-small;
+    color: white;
+}
+
+.badge.primary{
+    background-color: rgb(109, 109, 248);
+}
+
+.badge.secondary{
+    background-color: rgb(250, 121, 121);
+}
+
+.badge.error{
+    background-color: red;
+}
+
+.avatar-badge{
+    top: 15px;
+    left: 50px
+}
