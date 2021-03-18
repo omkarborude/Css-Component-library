@@ -12,9 +12,53 @@
      border: 1px solid black;
      text-align: left;
      padding: 10px;
+     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
 }
 
 .model-div h1 span{
     color: red;
     opacity: 0.9;
+}
+.model-div p{
+    opacity: 0.7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.model-btn-bottom{
+    background-color: red;
+    margin-top: 60px;
+}
+.model-btn-cancel{
+    float: right;
+    width: 70px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+}
+.model-btn-cancel:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+    border: none;
+    cursor: pointer;
+}
+.model-btn-delete{
+    float: right;
+    margin-left: 20px;
+    width: 70px;
+    height: 35px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+}
+.model-btn-delete:hover{
+    background-color: red;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.6s;
+}
+.carbon-container{
+    margin:  0 auto;
+    width: 50%;
 }
