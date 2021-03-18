@@ -55,6 +55,11 @@
     text-decoration: underline;
     color: blue
 }
+.btn-outline{
+    background: transparent;
+    color: darkorange;
+    border: 2px solid;
+}
 /* Hover effect */
 .btn-primary:hover{
     background-color: purple;
@@ -85,5 +90,11 @@
 }
 .btn-link:hover{
     color: deepskyblue;
+    cursor: pointer;
+}
+.btn-outline:hover{
+    background: darkorange;
+    color: white;
+    transition: 0.6s;
     cursor: pointer;
 }
