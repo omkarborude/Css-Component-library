@@ -1,1 +1,20 @@
 @import url("/avatar/avatar.css");
+
+.model-container{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+.model-div{
+     width: 30%;
+     height: 200px;
+     margin: 0 auto;
+     border: 1px solid black;
+     text-align: left;
+     padding: 10px;
+}
+
+.model-div h1 span{
+    color: red;
+    opacity: 0.9;
+}
