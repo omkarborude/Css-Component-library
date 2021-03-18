@@ -3,7 +3,8 @@
 .card-container{
     display: flex;
     margin: 0 auto;
-    background-color: red;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
     padding: 10px;
 }
 .product-card{
@@ -11,8 +12,46 @@
     width: 300px;
     height: 400px;
 }
+.btn-sale{
+    float: left;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 3px;
+    margin-left: -10px;
+    margin-top: 10%;
+}
 .img-div img{
     margin: 0 auto;
     width: 200px;
     height: 300px;
+}
+.product-info{
+    float: left;
+    margin-left: 20px;
+    margin-top: -30px;
+    text-align: left;
+}
+.product-info h2{
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+.product-info span{
+    color: blue;
+
+}
+.product-info p{
+   color: gray;
+   margin-top: 5px;
+}
+.product-info h3{
+    margin-top: -10px;
+    color: orangered;
+}
+.product-info h3 span{
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 16px;
+    background-color: deepskyblue;
+    color: white;
 }
