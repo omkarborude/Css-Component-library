@@ -1,2 +1,44 @@
 @import url("/avatar/avatar.css");
 
+.input-div-container{
+    padding: 30px;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.email-input{
+    height: 30px;
+    padding: 5px;
+    width: 180px;
+    border-radius: 10px;
+    border:  1px solid grey;
+    outline: none;
+}
+.email-input:focus{
+    border: 2px solid black;
+}
+
+.location-input{
+    height: 30px;
+    padding: 7px;
+    width: 180px;
+    border-radius: 10px;
+    border:  none;
+    outline: none;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+
+}
+
+.password-input{
+    height: 30px;
+    padding: 7px;
+    width: 180px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gray;
+}
+.password-input:focus{
+    border: 2px solid orangered;
+    transition: 0.4s;
+}
