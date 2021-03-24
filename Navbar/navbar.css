@@ -1,1 +1,21 @@
-@import url("/avatar/avatar.css")
+@import url("/avatar/avatar.css");
+
+.nav-main-container{
+    margin-top: 50px;
+}
+.nav-one{
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.nav-one a{
+    float: left;
+    justify-content: space-between;
+    padding-left: 40px;
+    font-size: 22px;
+    opacity: 0.8;
+}
