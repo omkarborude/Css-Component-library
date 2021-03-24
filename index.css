@@ -1,3 +1,9 @@
-.main-container{
+body{
     background-image: url("/img/jess-bailey-l3N9Q27zULw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+    
 }
