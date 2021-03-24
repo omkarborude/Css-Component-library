@@ -1,8 +1,11 @@
 @import url("/avatar/avatar.css");
+@import url("/input/input.css");
 
 .nav-main-container{
     margin-top: 50px;
 }
+
+/* navBar One */
 .nav-one{
     width: 80%;
     margin: 0 auto;
@@ -18,4 +21,37 @@
     padding-left: 40px;
     font-size: 22px;
     opacity: 0.8;
+}
+.option-left-side a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.option-right-side a{
+    float: right;
+    justify-content: space-between;
+    padding-right: 40px;
+    font-size: 22px;
+    opacity: 0.8;
+}
+.option-right-side a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* NavBar tow */
+.nav-two{
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    margin-top: 40px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+.nav-two input{
+    float: left;
+    margin-left: 20px;
+    margin-top: -5px;
 }
