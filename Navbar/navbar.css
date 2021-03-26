@@ -36,6 +36,7 @@
 .option-right-side a:hover{
     opacity: 1;
     cursor: pointer;
+    color: orangered;
 }
 
 /* NavBar tow */
@@ -49,7 +50,6 @@
     margin-top: 40px;
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
 }
-
 .nav-two input{
     float: left;
     margin-left: 20px;
